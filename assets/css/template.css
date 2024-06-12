@@ -52,12 +52,16 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
+    transition: all ease-in 200ms;
 }
 
 nav .active a, nav a:hover {
     background-color: #39aae1;
     color: #fff;
+    transform: scale(1.1);
 }
+
+
 
 #banner {
     display: flex;
